@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>three.js webgl - equirectangular panorama</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <style type="text/css">
+            #container{ width:1584px; height:1584px} 
+        </style>
+    </head>
+    <body>
+        <div id="container"></div>
+        <script src="js/three.js"></script>
+        <script src="js/photo-sphere-viewer.js"></script>
+        <script type="text/javascript">
+            var PSV = new PhotoSphereViewer({
+                // Path to the panorama
+                panorama: './images/quanjing1.jpg',
+             
+                // Container
+                container: container
+            }); 
+        </script>
+
+    </body>
+</html>

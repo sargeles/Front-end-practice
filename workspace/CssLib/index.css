@@ -1,0 +1,38 @@
+body{
+
+}
+
+/*可以写负值*/
+/*p {text-indent: -5em;}*/
+/*百分数要相对于缩进元素父元素的宽度。换句话说，如果将缩进值设置为 20%，所影响元素的第一行会缩进其父元素宽度的 20%。
+在下例中，缩进值是父元素的 20%，即 100 个像素：*/
+div {width: 1000px;}
+p.indent1 {
+	text-indent: 20%;
+	/*在两端对齐文本中，文本行的左右两端都放在父元素的内边界上。然后，调整单词和字母间的间隔，使各行的长度恰好相等。*/
+}
+p.align1 {
+	/*text-align: justify;*/
+	text-align: right;
+}
+
+p.word-spacing1 {word-spacing: 30px;}
+
+p.word-spacing2 {word-spacing: -0.5em;}
+
+p.letter-spacing1 {letter-spacing: -0.5em}
+
+p.letter-spacing2 {letter-spacing: 20px}
+
+p.text-transform1 {text-transform: uppercase}
+
+a:link {text-decoration: underline overline}
+a:visited {text-decoration: underline overline;}
+
+/*a {text-decoration: none;}*/
+
+h2 {text-decoration: line-through;}
+/*h2 {text-decoration: underline overline;}*/
+
+p.white-space1 {white-space: pre-wrap;}
+p.white-space2 {white-space: nowrap;}

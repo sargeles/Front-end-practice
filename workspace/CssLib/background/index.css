@@ -1,0 +1,32 @@
+body {
+	height: 1000px;/*body的宽度默认自适应，高度默认为0*/
+}
+
+div#div1 {
+	height: 50%;
+	width: 100%;
+	background-image: url(./img/111.jpg);/*./是当前，/是根目录 ../是上级*/
+	background-repeat: no-repeat;
+	background-position: 0% 0;
+	background-attachment: fixed;
+}
+
+div#div1 p {
+	width: 500px;/*默认自适应*/
+	background-color: rgb(100%,0%,0%);/*用百分比，则0%必须加单位*/
+	padding: 20px;
+
+}
+
+div#div2 {
+	height: 50%;
+	width: 3000px;
+	background-image: url(./img/222.jpg);
+	background-repeat: no-repeat;
+	background-position: 10% 0;
+
+	background-size: ;	/*图片的尺寸调节*/
+	background-clip: ;
+	background-origin: ;
+	background-blend-mode: ;
+}
